@@ -5,3 +5,9 @@ next3Btn = document.querySelector("#next-3-btn");
 next4Btn = document.querySelector("#next-4-btn");
 welcomeText = document.querySelector(".welcome-text");
 characterText = document.querySelector(".character-text")
+
+function showWelcomeMssg(){
+    
+}
+
+next1Btn.addEventListener("click", showWelcomeMssg)
