@@ -15,6 +15,7 @@ characterContainer = document.querySelector(".container-4")
 function showWelcomeMssg(){
     takeNameContainer.style.display = "none";
     welcomeMssgContainer.style.display = "block";
+    welcomeText.innerText = "Hello " + `${inputName.value}` + "!\nLet's go find you a costume for Halloween 🎃";
 }
 
 next1Btn.addEventListener("click", showWelcomeMssg)
